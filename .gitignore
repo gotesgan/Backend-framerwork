@@ -1,0 +1,110 @@
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+
+# ---- Node / Package managers ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.pnp.*
+.package-lock.json
+# If you prefer committing lockfiles, remove the three lines above for your manager
+
+# ---- Build / Output ----
+dist/
+build/
+out/
+.next/
+.next-static/
+.vercel/
+.netlify/
+coverage/
+*.tsbuildinfo
+.cache/
+.cache-loader/
+
+# ---- Monorepo / Tooling ----
+.turbo/
+turbo/
+.eslintcache
+.stylelintcache
+
+# ---- Env & Secrets ----
+.env
+.env.*.local
+.env.local
+*.env
+# Keep a sample file tracked:
+!.env.example
+
+# ---- Prisma ----
+prisma/*.db
+prisma/*.db-journal
+prisma/migrations/**/steps.json
+# If you want to keep migrations, ignore the line above
+prisma/generated/
+@prisma/*/query-engine-*
+@prisma/*/schema-engine-*
+@prisma/*/migration-engine-*
+
+# ---- Logs & Pids ----
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ---- Frontend (Next/Vite/React) ----
+**/node_modules/
+**/.cache/
+**/dist/
+**/build/
+**/.vite/
+**/vite.config.ts.timestamp-*
+**/vite.config.js.timestamp-*
+**/storybook-static/
+.storybook/out/
+*.map
+
+# ---- Images / Assets (optional) ----
+# Uncomment to keep repo light; use LFS if needed
+# public/uploads/
+# uploads/
+# *.psd
+# *.ai
+# *.sketch
+
+# ---- Tests / Playwright / Cypress ----
+playwright-report/
+test-results/
+.cypress-cache/
+cypress/videos/
+cypress/screenshots/
+
+# ---- Docker ----
+docker-data/
+*.tar
+*.img
+
+# ---- Misc ----
+tmp/
+temp/
+.cache/
+.sass-cache/
+.nyc_output/
+
+# ---- OS-specific in subpackages ----
+**/.DS_Store
+
+/src/generated/prisma

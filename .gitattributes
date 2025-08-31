@@ -1,0 +1,31 @@
+* text=auto eol=lf
+
+# Treat these as text
+*.js text
+*.ts text
+*.tsx text
+*.jsx text
+*.json text
+*.css text
+*.scss text
+*.md text
+*.yml text
+*.yaml text
+*.env.example text
+
+# Lockfiles
+package-lock.json text
+yarn.lock text
+pnpm-lock.yaml text
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.pdf binary
